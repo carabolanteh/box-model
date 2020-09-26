@@ -1,0 +1,45 @@
+section{
+    width: 100px;
+    height:100px;
+    background-color: blueviolet;
+    color: #ffff;
+    font-size: 30px;
+    text-align: center; /*CENTRAR EL TEXTO DENTRO DE LA CAJA*/
+    /*float: inline-start; ELEMENTOS EN LINEA*/
+    
+}
+.caja{
+    width: 100px;
+    height:100px;
+    background-color: blue;
+    color: #ffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 45px;
+    bottom: 45px;
+}
+.caja-padre{
+    width: 150px;
+    height:150px;
+    background-color: yellow;
+    position: absolute;
+    left: 300px;
+    bottom: 80px;
+}
+/*.caja{
+    POSICION DE LA CAJA, "MOVIMIENTO" EN PIXELES, DEJA UN ESPACIO, AGREGA PIXELES.//// AL CONTRARIO DE LA RELATIVA QUE SI.
+    background-color: salmon;
+    position: absolute; NO DEJA UN ESPACION DE DONDE SE MUEVA
+    position: fixed ANCLAJE
+    position: static; NO SE VA A MOVER
+    border-radius: 50%; HACER UN CIRCULO 
+    clear: both; SOLO FUNCIONA CUANDO HAY UN FLOAT-COMIENZA EN UNA NUEVA LINEA
+}*/
+/* .caja-padre{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    bottom: 150px;
+} */
